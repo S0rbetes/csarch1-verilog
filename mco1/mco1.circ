@@ -1482,6 +1482,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <comp lib="1" loc="(260,260)" name="NAND Gate">
       <a name="size" val="30"/>
       <a name="inputs" val="3"/>
+      <a name="label" val="W2"/>
     </comp>
     <comp lib="1" loc="(260,840)" name="NAND Gate">
       <a name="size" val="30"/>
@@ -1496,6 +1497,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <comp lib="1" loc="(180,290)" name="NAND Gate">
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
+      <a name="label" val="I4"/>
     </comp>
     <comp lib="0" loc="(380,2550)" name="Pin">
       <a name="facing" val="west"/>
@@ -1515,6 +1517,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <comp lib="1" loc="(260,350)" name="NAND Gate">
       <a name="size" val="30"/>
       <a name="inputs" val="3"/>
+      <a name="label" val="W3"/>
     </comp>
     <comp lib="1" loc="(270,420)" name="NAND Gate">
       <a name="size" val="30"/>
@@ -1547,6 +1550,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <comp lib="1" loc="(260,130)" name="NAND Gate">
       <a name="size" val="30"/>
       <a name="inputs" val="3"/>
+      <a name="label" val="W1"/>
     </comp>
     <comp lib="0" loc="(40,130)" name="Pin">
       <a name="tristate" val="false"/>
@@ -1605,6 +1609,12 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="size" val="30"/>
       <a name="inputs" val="4"/>
     </comp>
+    <comp lib="6" loc="(330,218)" name="Text">
+      <a name="text" val="O as in letter o. "/>
+    </comp>
+    <comp lib="6" loc="(154,326)" name="Text">
+      <a name="text" val="I1"/>
+    </comp>
     <comp lib="0" loc="(380,480)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
@@ -1643,6 +1653,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <comp lib="1" loc="(180,80)" name="NAND Gate">
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
+      <a name="label" val="I1"/>
     </comp>
     <comp lib="1" loc="(180,1940)" name="NAND Gate">
       <a name="size" val="30"/>
@@ -1692,6 +1703,10 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <comp lib="1" loc="(180,230)" name="NAND Gate">
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
+      <a name="label" val="I2"/>
+    </comp>
+    <comp lib="6" loc="(318,232)" name="Text">
+      <a name="text" val="not 0(zero)"/>
     </comp>
     <comp lib="1" loc="(340,1060)" name="NAND Gate">
       <a name="size" val="30"/>
@@ -1734,6 +1749,9 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="label" val="b1"/>
       <a name="labelloc" val="north"/>
     </comp>
+    <comp lib="6" loc="(153,387)" name="Text">
+      <a name="text" val="I4"/>
+    </comp>
     <comp lib="1" loc="(350,1830)" name="NAND Gate">
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
@@ -1770,6 +1788,9 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <comp lib="1" loc="(260,2280)" name="NAND Gate">
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="6" loc="(151,260)" name="Text">
+      <a name="text" val="I3"/>
     </comp>
     <comp lib="1" loc="(260,1960)" name="NAND Gate">
       <a name="size" val="30"/>
@@ -1838,6 +1859,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <comp lib="1" loc="(180,350)" name="NAND Gate">
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
+      <a name="label" val="I2"/>
     </comp>
     <comp lib="5" loc="(720,40)" name="LED">
       <a name="facing" val="south"/>
@@ -1855,6 +1877,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <comp lib="1" loc="(180,130)" name="NAND Gate">
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
+      <a name="label" val="I2"/>
     </comp>
     <comp lib="1" loc="(180,1560)" name="NAND Gate">
       <a name="size" val="30"/>
@@ -1863,6 +1886,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <comp lib="1" loc="(180,180)" name="NAND Gate">
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
+      <a name="label" val="I3"/>
     </comp>
     <comp lib="0" loc="(40,80)" name="Pin">
       <a name="tristate" val="false"/>
@@ -1903,6 +1927,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <comp lib="1" loc="(340,260)" name="NAND Gate">
       <a name="size" val="30"/>
       <a name="inputs" val="3"/>
+      <a name="label" val="O"/>
     </comp>
     <comp lib="1" loc="(260,2630)" name="NAND Gate">
       <a name="size" val="30"/>
