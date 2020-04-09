@@ -1,7 +1,13 @@
+/*
+ * For the purposes of easy implementation, the NAND gate implementation will chosen
+ * to be converted to HDL. 
+ */
+
 module B1(O, I1, I2, I3, I4);
     output O;
     input I1, I2, I3, I4;
 
+// B1 only 
 assign O = 1'b1;
 endmodule
 
@@ -90,7 +96,7 @@ module B9(O, I1, I2, I3, I4);
     wire W1, W2, W3, W4, W5;
 	
 nand G1(W1, !I1, !I3),
-	 G2(W2,!I2, !I4),
+	 G2(W2, !I2, !I4),
 	 G3(W3, !I3, !I4),
 	 G4(W4, I2, I4),
 	 G5(W5, I1, I3),
@@ -111,5 +117,5 @@ module B11(O, I1, I2, I3, I4);
     output O;
     input I1, I2, I3, I4;
 
-assign O = 0'b1;
+assign O = 1'b0;
 endmodule
