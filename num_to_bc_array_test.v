@@ -7,6 +7,8 @@ module numToBarcodeConverterTester;
     wire [10:0] bc;
     // Input
     reg [3:0] num;
+    // To be used for iteration
+    integer i;
 
 numToBarcodeConverter uut(bc, num);
 initial
@@ -15,10 +17,14 @@ begin
     $dumpfile("num_to_bc.vcd");
     $dumpvars(0, numToBarcodeConverterTester);
 
+    //num = 4'b0000;
+    //#30 num = 4'b0101;
+    //#30 num = 4'b1010;
+    //#30 num = 4'b1111;
     num = 4'b0000;
-    #30 num = 4'b0101;
-    #30 num = 4'b1010;
-    #30 num = 4'b1111;
+    for (i = 4'b0001; i <= 4'b1111 ; i = i + 4'b0001) begin
+        #30 num = i;
+    end 
 end
-initial #130 $finish;
+initial #490 $finish;
 endmodule
