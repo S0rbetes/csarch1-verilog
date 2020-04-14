@@ -18,8 +18,3 @@ Open in GTKWave:
 ```
 gtkwave num_to_bc.vcd
 ```
-
-## To-do List:
-1. Update documentation
-2. ~~Add modules for b3-b11~~ Done!
-3. ~~Create simulation~~ Done! **Needs checking**
